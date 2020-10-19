@@ -1,0 +1,143 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  } 
+
+  body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/* Width of the text creates padding top so text visible under heading */
+.wrapper {
+    width: 90%;
+	padding: 1rem;
+	overflow: auto;
+    margin: 0 auto;
+    padding-top: 7.5rem;
+}
+
+img{
+    width: 40%;
+}
+
+.leftfloat {
+	float: left;
+	margin: 0 1rem 1rem 0;
+}
+
+/* Played around with colors like navy best */
+/* Overflow auto clears the float in the nav */
+/* Position fixes position of nav */
+header {
+	background-color: navy;
+	color: white;
+	width: 100%;
+	overflow: auto;
+    position: fixed;
+    z-index: 3;
+}
+
+header h1 {
+	margin: 0;
+    padding: 0.5em; 
+}
+
+header h1 a{
+    text-decoration: none;
+    color:white;
+}
+
+.clear_before{
+    clear: both;
+}
+
+
+/* navigation bar */
+/* Font formating  for the actual items on the nav bar */
+header h1 {
+	width: 30%;
+    float: left;
+    	list-style-type: none;
+}
+
+nav {
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 70%;
+	float: left;
+	padding-top: 1.5em;
+}
+
+/* Gets rid of padding and bullets on ul  */
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: right;
+}
+
+/* Brings things inline and adds some border between items */
+nav li {
+	display: inline-block;
+	padding-right: 1.3em;
+}
+
+/* Removes links for items changes text color */
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+/* Changes color when hovering for items */
+nav a:hover {
+	color: #ffc;
+}
+
+
+
+fieldset {
+	margin-bottom: 2rem;
+	border: none;
+	background-color: rgb(163, 171, 247);
+}
+label {
+	display: block;
+}
+
+.extra_space {
+    margin-top: 3rem;
+}
+
+div ul{
+    margin-left: 1rem;
+}
+
+.columns{
+    column-width: 20rem;
+    column-gap: 2rem;
+    column-rule: 1px dotted #999;    
+}
+
+.abs_image{
+    width: 20%;
+    position: absolute;
+}
+
+#abs_image_id{
+    right:100px;
+    z-index: 2;
+}
+
+.rel_image{
+    width: 50%;
+    position: relative;
+}
+
+#rel_image_id{
+    top:10px;
+    z-index: 2;
+}
