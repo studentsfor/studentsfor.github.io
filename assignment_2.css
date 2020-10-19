@@ -116,12 +116,14 @@ div ul{
     margin-left: 1rem;
 }
 
+/* Columns for working groups page*/
 .columns{
     column-width: 20rem;
     column-gap: 2rem;
     column-rule: 1px dotted #999;    
 }
 
+/* Absolute code for image on upcoming classes page*/
 .abs_image{
     width: 20%;
     position: absolute;
@@ -132,6 +134,7 @@ div ul{
     z-index: 2;
 }
 
+/* Relative code for image on upcoming classes page*/
 .rel_image{
     width: 50%;
     position: relative;
