@@ -150,7 +150,7 @@ label {
 	margin-left: 4rem;
 }	 
 
-@media (min-width: 500px){
+@media (min-width: 550px){
 	.background_image{
 		background-image:url("background_image.jpg");
 		width: 625px;
